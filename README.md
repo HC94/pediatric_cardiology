@@ -2,7 +2,9 @@
 Markdown syntax: https://www.markdownguide.org/basic-syntax
 -->
 
-# Predicting Haemodynamics in Paediatric Pulmonary Arterial Hypertension Using Cardiac Magnetic Resonance Cine Imaging and Machine Learning: An Exploratory Pilot Study
+# Predicting Haemodynamics in Paediatric Pulmonary Arterial Hypertension Using Cardiac Magnetic Resonance Imaging and Machine Learning: An Exploratory Pilot Study
+
+<b>Authors: Hung Chu; Rosaria J. Ferreira; Chantal Lokhorst; Johannes M. Douwes; Meindina G. Haarman; Tineke P. Willems; Rolf M.F. Berger; Mark-Jan Ploegstra.</b>
 
 This repository provides the code for preprocessing cardiac magnetic resonance (CMR) cine imaging data, as well as training (including hyperparameter tuning) and evaluating machine learning models to predict haemodynamics in paediatric pulmonary arterial hypertension (PAH).
 
@@ -23,7 +25,8 @@ This repository provides the code for preprocessing cardiac magnetic resonance (
 
 This step preprocesses MRI cine frames for use in the deep learning models. A flowchart outlining the data preprocessing steps is shown below:
 
-![Data preprocessing](images/data_preproc.png "Data preprocessing")
+
+<img src="images/data_preproc.png" alt="Data preprocessing" title="Data preprocessing" width="1200" height="250">
 
 #### Requirements
 - **Input Data**:
@@ -50,7 +53,7 @@ $ python3 data_preproc.py
 This step trains, performs hyperparameter tuning using [Optuna](https://optuna.org/), and evaluates machine learning models: logistic regression, random forest, and deep learning.
 The flowchart below summarizes the training process:
 
-![Flowchart](images/flowchart.png "Flowchart")
+<img src="images/flowchart.png" alt="Flowchart" title="Flowchart" width=auto height="250">
 
 #### Requirements
 - **Input Data**:
