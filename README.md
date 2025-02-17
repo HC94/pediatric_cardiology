@@ -30,7 +30,7 @@ This step preprocesses MRI cine frames for use in the deep learning models. A fl
 steps is shown below:
 
 
-<img src="images/data_preproc.png" alt="Data preprocessing" title="Data preprocessing" width="1200" height="250">
+<img src="images/data_preproc.jpg" alt="Data preprocessing" title="Data preprocessing" width="1200" height="250">
 
 #### Requirements
 - **Input Data**:
@@ -59,7 +59,7 @@ This step trains, performs hyperparameter tuning using [Optuna](https://optuna.o
 logistic regression, random forest, and deep learning.
 The flowchart below summarizes the training process:
 
-<img src="images/flowchart.png" alt="Flowchart" title="Flowchart" width=auto height="250">
+<img src="images/flowchart.jpg" alt="Flowchart" title="Flowchart" width=auto height="250">
 
 #### Requirements
 - **Input Data**:
